@@ -3,6 +3,8 @@ package Practise;
 import java.util.Comparator;
 import java.util.TreeSet;
 
+import JAVA.PersonComparator;
+
 //아래를 구현 시키기 위한 Person 객체를 작성하시오.
 //TreeSet<Person> tree = new TreeSet<>(new PersonComparator());
 //   tree.add(new Person("YOON", 37));
@@ -46,7 +48,7 @@ class PersonComparator implements Comparator<Person>{
 public class TreePersonMain {
 	public static void main(String[] args) {
 		
-		TreeSet<Person> tree = new TreeSet<>();
+		TreeSet<Person> tree = new TreeSet<>(new PersonComparator()); // new PesonComparator() 추가
 		tree.add(new Person("YOON", 22));
 	  	tree.add(new Person("HONG", 37));
 	  	tree.add(new Person("PARK", 53));
