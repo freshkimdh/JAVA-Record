@@ -3,7 +3,7 @@ package Practise;
 import java.util.Comparator;
 import java.util.TreeSet;
 
-import JAVA.PersonComparator;
+
 
 //아래를 구현 시키기 위한 Person 객체를 작성하시오.
 //TreeSet<Person> tree = new TreeSet<>(new PersonComparator());
