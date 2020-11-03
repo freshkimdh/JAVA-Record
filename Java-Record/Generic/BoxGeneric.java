@@ -5,24 +5,23 @@ package Generic;
 //(제네릭 활용) - 데이터 타입을 외부에서 설정하여 출력하는 것.
 
 class Box <T> {   
- private T ob;
- 
- public void set(T o) {
-    ob = o;
- }
- 
- public T get() {
-    return ob;
- }
+	 private T ob;
+	 
+	 public void set(T o) {
+	    ob = o;
+	 }
+	 
+	 public T get() {
+	    return ob;
+	 }
 }
 
 class BoxFactory {
- 
- public static <T> Box<T> makeBox(T o) {
-    Box<T> box = new Box<T>();
-    box.set(o);
-    return box;
- }
+	 public static <T> Box<T> makeBox(T o) {
+	    Box<T> box = new Box<T>();
+	    box.set(o);
+	    return box;
+	 }
 }
 
 public class BoxGeneric {
