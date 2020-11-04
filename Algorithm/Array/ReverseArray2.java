@@ -1,8 +1,8 @@
-package practice;
+package Array;
 
 //자연수 n을 뒤집어 각 자리 숫자를 원소로 가지는 배열 형태로 리턴시키는 함수
 
-public class Test {
+public class ReverseArray2 {
 	public static void main(String[] args) {
 		
 		int slist[] = {1,2,3,4,5};

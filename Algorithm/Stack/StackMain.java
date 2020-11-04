@@ -23,7 +23,6 @@ class ArrayStack implements IStack {
 		stackArr = new int[this.stackSize]; // 스택 배열 생성
 	}
 	
-	
 	@Override
 	public boolean isEmpty() {
 		// 스택 포인터가 -1인 경우 데이터가 없는 상태이므로 ture 아닌 경우 false를 return
