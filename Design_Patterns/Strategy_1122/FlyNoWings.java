@@ -1,6 +1,6 @@
-package intro_1122;
+package Strategy_1122;
 
-public class FlyNoWiings implements FlyBehavior_inter {
+public class FlyNoWings implements FlyBehavior_inter {
     
 	@Override
 	public void fly() {
